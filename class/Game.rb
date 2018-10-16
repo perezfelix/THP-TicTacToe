@@ -47,7 +47,8 @@ class Game
 	    #Pas de victoire == egalité                                                                       
 	  if @@victory == false
 	  @player_won = "MATCH NUL"
-	     # Affiche les points                                           
+	     # Affiche les points    
+    puts "MATCH NUL !"                                       
 	  puts "#{@p_one.pname} : #{@p_one.ppoints} points VS #{@p_two.pname} : #{@p_two.ppoints} points"
 	    #Try again
 	  puts "Try again ? Y/N"                                                                  
